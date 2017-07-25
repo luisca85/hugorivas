@@ -1,0 +1,147 @@
+@import "theme/child_theme_variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "assets/bootstrap4";// <--------- Loads Bootstrap3 or Bootstrap4. Change from /bootstrap3 to /bootstrap4 Watch out! just for testing in the moment!
+@import "../src/sass/understrap/understrap/understrap";// <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
+@import "../src/sass/understrap/theme/contact-form7";// <-------- Loads some basic styling for contact form 7 plugin
+
+//Optional files - If you don´t use the corresponding scripts/fonts comment em out
+@import "assets/font-awesome"; // <------- Font Awesome Icon font
+@import "assets/underscores"; // <------- Underscores media styles
+
+// Any additional imported files //
+@import "theme/child_theme";  // <--------- Add your styles into this file
+
+/* Menu */
+
+.wrapper {
+    padding: 28px 0;
+   	z-index: 1;
+}
+
+.bg-hugo {
+    background-color: rgba(43,89,133,0.8);
+}
+
+.carousel {
+    position:absolute;
+    top: 32px;
+    z-index: -1;
+}
+
+
+.nav-link{
+	text-transform: uppercase;
+	color: white!important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0px 15px;
+}
+
+
+
+	.box-home{
+		background-color:  rgba(43,89,133,0.95);
+		height: 400px;
+		overflow: none;
+		border-radius: 3px;
+		color: white;
+		width: 30%;
+
+		h3>strong{
+			border-bottom: 1px solid #f3c163 ;
+			display: block;
+			padding-bottom: 5px;
+		}
+	}
+
+	.entry-header{
+		display: none;
+	}
+
+
+
+
+
+		.footer {
+		    width: 100%;
+		    background-color: #0BA4B0;
+		    color: white;
+
+		.container{
+			height: 80px;
+			display: table;
+			.texto{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			}
+		}
+			.xl-icon{
+				font-size: 60px ;
+			}
+
+		}
+
+	.sub{
+		width: 100%;
+		height: 250px ;
+		background-color: #f3c163;
+    	color: rgba(43, 89, 133, 0.95) ;
+    	font-family: 'Montserrat', sans-serif;
+    	#wrapper-footer-full{
+    		background-color: #f3c163 !important ;
+
+    		.menu-item {
+			    display: block;
+			    width: auto;
+			    float: none;
+			}
+
+    		ul{
+    			padding: 0px;
+    			margin: 0px;
+    			li{
+    				a{
+    					color: rgba(43, 89, 133, 0.95) ;
+    					
+    					text-decoration: none;
+    					font-weight: bold;
+
+
+    				}
+    				
+    			}
+    		}
+    	}
+
+    	.sub-menu{
+    		display: none;
+    	}
+    	.widget-title{
+    		font-size: 22px;
+    	}
+    	
+	}
+
+	.dropdown-menu{
+		background-color: #F3C163;
+		padding:0px;
+			.menu-item{
+					a.nav-link{
+						color: #130d01!important;
+						font-size: 16px;
+						text-transform: lowercase;
+						font-weight: normal;
+						border-bottom: 1px solid #130d01;
+						}
+					
+
+					a.nav-link:hover{
+						background-color: #cca253;
+					}
+
+				}
+				
+	}
+
+
+
